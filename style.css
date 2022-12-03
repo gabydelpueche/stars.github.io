@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-image: url("ahhh.jpg");
+    background-repeat: no-repeat;
+}
+
+.a{
+    background-image: url("star.png");
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+    scale: 0.5;
+    animation: shoot 5s infinite;
+}
+
+@keyframes shoot {
+    0% {left: 10vw; top: -90vh;}
+    100% {left: -60vw; top: 100vh;}
+}
+
+.b{
+    background-image: url("star.png");
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+    scale: 0.5;
+    animation: boot 3s 3s infinite;
+}
+
+@keyframes boot {
+    0% {left: 60vw; top: -200vh;}
+    100% {left: -30vw; top: 10vh;}
+}
+
+.c{
+    background-image: url("star.png");
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+    scale: 0.5;
+    animation: hoot 3s 15s infinite;
+}
+
+@keyframes hoot {
+    0% {left: 100vw; top: -300vh;}
+    100% {left: -40vw; top: 10vh;}
+}
+
+.d{
+    background-image: url("star.png");
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+    scale: 0.5;
+    animation: snoot 3.5s 5s infinite;
+}
+
+@keyframes snoot {
+    0% {left: 100vw; top: -400vh;}
+    100% {left: -40vw; top: 10vh;}
+}
